@@ -1,9 +1,8 @@
-package com.saurabhSeleniumAuto.pageObjectModel_Pages;
+package com.saurabhSeleniumAuto.pages.pageObjectModel;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.edge.EdgeDriver;
 
 public class loginPage_POM {
     // It will contain
@@ -35,7 +34,7 @@ public class loginPage_POM {
             throw new RuntimeException(e);
         }
 
-        WebElement error_msg = driver.findElement(By.id("js-notification-box"));
+        WebElement error_msg = driver.findElement(errormsg);
         String errormsgText = error_msg.getText();
         System.out.println(error_msg.getText());
         System.out.println(errormsgText);

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/sanan/IdeaProjects/WebAutomation_Framework_Learnings/src/test/java/com/saurabhSeleniumAuto/tests/TestvwoLogin_PF_DM.java">
+        <classes>
+            <class name="com.saurabhSeleniumAuto.tests.TestvwoLogin_PF_DM_QA">
+                <methods>
+                    <include name="testLoginNegative"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
