@@ -8,6 +8,8 @@ import org.testng.annotations.Test;
 
 import java.io.FileNotFoundException;
 
+import static org.testng.TestNGAntTask.Mode.junit;
+
 public class TestvwoLogin_PF {
     @Test
     public void testLoginNegative() throws FileNotFoundException {
